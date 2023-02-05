@@ -1,4 +1,6 @@
 #load functions
+
+# adding random text
 Get-ChildItem -Path $PSScriptRoot\functions\*.ps1 |
 ForEach-Object {
     . $_.fullname
